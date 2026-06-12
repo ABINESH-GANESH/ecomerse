@@ -1,0 +1,321 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.navbar-container {
+    display: flex;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #111111;
+}
+
+.navbar-2 {
+    display: flex;
+
+}
+
+.navbar-2 p {
+    margin-left: 10px;
+
+}
+
+.navbar-2 p a {
+    color: rgb(230, 173, 218);
+    text-decoration: none;
+    font-size: large;
+}
+.navbar-2 p a:hover{
+    text-decoration: underline;
+}
+
+.navbar-container .navbar-3 {
+    background-color: burlywood;
+    display: none;
+}
+
+.side-navbar {
+    background-color: #111111;
+    width: 40%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    padding: 10px;
+    left: -45%;
+    transition: 2s;
+}
+
+.side-x {
+    color: white;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.side {
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.side a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.products {
+    display: flex;
+    padding-top: 100px;
+
+    flex-wrap: wrap;
+}
+
+.product-1 h1,
+h5 {
+    padding: 10px;
+    padding-left: 400px;
+}
+
+.product-1 button {
+    margin: 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+    margin-left: 400px;
+    border: none;
+}
+
+.service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.service h2 {
+    margin-left: 20px;
+}
+
+.service-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.service-box-1 {
+    background-color: whitesmoke;
+    color: white;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.service-box-1 h2,
+i,
+p {
+    color: black;
+}
+
+.service-1 h2 {
+    margin-top: 10px;
+}
+
+.he {
+    margin-left: 10px;
+}
+
+.main-img {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.img {
+    position: relative;
+    flex-basis: 20%;
+    flex-grow: 1;
+    margin-left: 20px;
+
+}
+
+.img p i {
+    color: #111111;
+}
+
+.img p button {
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    background-color: white;
+    color: black;
+    border: none;
+    left: 10%;
+}
+
+.hi {
+    margin-left: 10px;
+}
+
+.main-img-2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.img-2 {
+    position: relative;
+    flex-basis: 20%;
+    flex-grow: 1;
+    margin-left: 20px;
+
+}
+
+.img-2 p button {
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    background-color: white;
+    color: black;
+    border: none;
+    left: 15%;
+}
+
+.img-2 i {
+    color: black;
+}
+
+.fot {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: auto;
+    padding: 10px;
+
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.fot h2,
+p {
+    margin: 5px;
+}
+
+.fot input {
+    padding: 5px;
+    width: 70%;
+    margin-top: 5px;
+
+}
+
+.fot button {
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border: none;
+    background-color: #111111;
+    color: white;
+}
+
+.fot i {
+    color: white;
+}
+
+.address {
+    background-color: #111111;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.address h1,
+.pe {
+    color: white;
+    margin-left: 10px;
+
+}
+
+.brands {
+    background-color: #111111;
+    color: white;
+    margin-left: 10px;
+
+}
+.searchbar{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.usersearch{
+    width:70%;
+    padding: 5px;
+    margin-left: 200px;
+   margin-right: 50px;
+   padding-top: 10px;
+   text-align: left;
+}
+.para{
+    margin-left: 60px;
+}
+.para-1{
+    margin-left: 60px;
+}
+.main-img-1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    align-items: center;
+}
+.img-1 {
+    position: relative;
+    flex-basis: 20%;
+    flex-grow: 1;
+    margin-left: 20px;
+
+}
+.img-1 p i {
+    color: #111111;
+}
+
+.img-1 p button {
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    background-color: white;
+    color: black;
+    border: none;
+    left: 10%;
+}
+.searchbar i{
+    position: relative;
+    right: 6%;
+}
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .navbar-container .navbar-3 {
+        display: block;
+    }
+
+    .navbar-container .navbar-2 {
+        display: none;
+    }
+
+}
